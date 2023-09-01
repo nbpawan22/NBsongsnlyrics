@@ -1,0 +1,131 @@
+*{
+    margin:0;
+    padding:0;
+    text-decoration: none;
+    color: whitesmoke;
+   
+}
+pre{
+    font-size: 2em;
+    font-style: oblique;
+    
+}
+.navbar{
+    top: 0;
+    bottom: 0;
+background-color : #000000 ;
+z-index: 1;
+    position:sticky;
+    color: wheat;
+    font-size: 1.2em;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+padding-left: 2em;
+padding-right: 2em;
+height: auto;
+width: 95.0%;
+
+
+
+}
+.navdiv{
+   
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    
+}
+#lego{
+    align-items: center;
+   border-radius: 4em;
+ height: 3em;
+ width: 3em;
+}
+
+#lego:hover{
+    box-shadow: 0 0 5px rgb(0, 255, 76),
+    0 0 25px rgb(71, 226, 71),0 0 ;
+}
+li{
+    list-style: none;display: inline-block;margin-right: 2em;
+}
+li a{
+    color: rgb(132, 0, 255); font-size: 1.2em;
+    
+}
+li:hover{
+ 
+ box-shadow:0 0 5px  rgb(255, 255, 255);
+}
+#search{
+    color: black;
+    height: 1.9em;
+    width:15em;
+    border:solid rgb(0, 0, 0);
+ border-radius: 0.9em;
+  
+}
+#select{
+    border-radius: 0;
+    font-size: 1.2em;
+    color: rgb(132, 0, 255) ;
+    border-style: none;
+   
+   background-color:#000000;
+}
+option{
+    color: rgb(0, 162, 255)
+}
+.maindiv{
+padding-left: 2em;
+padding-right: 2em;
+    padding-top: 5em;
+    padding-bottom: 4em;
+    width: 96%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    background-color:#0A1128;
+  
+}
+.boxdiv{
+    margin-left: 1em;
+ margin-bottom: 2em;
+    background-color:transparent;
+    border: solid gray;
+    height: 21em;
+    width:14em;
+    border-radius: 1.9em;
+  
+}
+#image{
+    height:12em;
+    width: 13em;
+    border-radius: 1.9em;
+    padding: 0.5em;
+}
+#ALec{
+    width:13em ;
+    height: 3em;
+ padding-left: 0.5em;
+}
+#Lyric{
+ 
+border-radius: 1.5em;
+height: 3em;
+width: 8em;
+color: rgb(0, 0, 0);
+background-color: #1282A2;
+border-style: none;
+
+}
+#Lyric:hover{
+    background-color: rgb(66, 77, 179);
+}
+marquee{
+    letter-spacing: 0.1em;
+    font-size: 1em;
+    font-family: 'Times New Roman', Times, serif;
+    font-style: initial;
+
+}
