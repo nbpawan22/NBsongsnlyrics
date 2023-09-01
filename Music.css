@@ -5,15 +5,11 @@
     color: whitesmoke;
    
 }
-pre{
-    font-size: 2em;
-    font-style: oblique;
-    
-}
+
 .navbar{
     top: 0;
     bottom: 0;
-background-color : #000000 ;
+background-color : black;
 z-index: 1;
     position:sticky;
     color: wheat;
@@ -22,9 +18,7 @@ z-index: 1;
 padding-left: 2em;
 padding-right: 2em;
 height: auto;
-width: 95.0%;
-
-
+width: auto;
 
 }
 .navdiv{
@@ -81,7 +75,7 @@ padding-left: 2em;
 padding-right: 2em;
     padding-top: 5em;
     padding-bottom: 4em;
-    width: 96%;
+width: auto;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
@@ -95,7 +89,8 @@ padding-right: 2em;
     border: solid gray;
     height: 21em;
     width:14em;
-    border-radius: 1.9em;
+  align-content: center;
+    align-items: center;
   
 }
 #image{
@@ -110,7 +105,7 @@ padding-right: 2em;
  padding-left: 0.5em;
 }
 #Lyric{
- 
+
 border-radius: 1.5em;
 height: 3em;
 width: 8em;
